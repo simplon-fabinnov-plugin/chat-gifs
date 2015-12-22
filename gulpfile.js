@@ -3,7 +3,7 @@
 var gulp = require('gulp');
 var zip = require('gulp-zip');
 
-var files = ['manifest.json', 'background.js']
+var files = ['manifest.json', 'background.js', '*.png']
 var xpiName = 'chatgifs.xpi';
 
 gulp.task('default', function() {
